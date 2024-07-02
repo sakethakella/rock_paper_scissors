@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.elements{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    font-size: 3vw;
+    padding:1vw;
+    margin:1vw;
+    width:40vw;
+    height: auto;
+    text-align: center;
+}
+#human{
+    font-size: 2vw;
+    width:20vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 4vw;
+}
+button{
+    font-size: 2vw;
+    width:15vw;
+    text-align: center;
+    background-color: green;
+    color:orange;
+    height:4vw;
+    margin:1vw;
+    border-radius: 1vw;
+}
+button:hover{
+    background-color: brown;
+    color:yellow;
+}
+img{
+    height: 20vw;
+    width:20vw;
+}
